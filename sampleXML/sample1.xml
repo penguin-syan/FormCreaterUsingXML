@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<createForm>
+    <page name="page1">
+        <title>Sample form 1</title>
+        <description>XMLの書き方を示したサンプルフォーム1</description>
+        <question id="1" mandatory="true">
+            <Qtext>Q1:質問文を入力するのじゃ～</Qtext>
+            <Qdesc>質問に対する補足を入力するのじゃ～</Qdesc>
+            <Qans type="textbox" maxlength="12">Default text</Qans>
+            <Qans type="textarea" maxlength="12">Default text</Qans>
+            <Qans type="number" max="100" min="0" float="false">Default number</Qans>
+            <group mode="radio">
+                <shuffle>
+                    <Qans type="radio" onselect="page1">value</Qans>
+                    <Qans type="radio">value</Qans>
+                    <Qans type="other"></Qans>
+                </shuffle>
+            </group>
+            <group mode="checkbox" max="3" min="3">
+                <Qans type="checkbox">value1</Qans>
+                <Qans type="checkbox">value2</Qans>
+                <Qans type="checkbox">value3</Qans> 
+            </group>
+            <group mode="pulldown">
+                <Qans type="pulldown" onselect="page2">value1</Qans>
+                <Qans type="pulldown">value2</Qans>
+                <Qans type="pulldown">value3</Qans>
+            </group>
+        </question>
+    </page>
+    <shuffle mode="random">
+        <page>
+            <separation></separation>
+        </page>
+        <page>
+        </page>
+    </shuffle>
+</createForm>
