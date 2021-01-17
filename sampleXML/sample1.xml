@@ -28,8 +28,9 @@
             </group>
         </question>
     </page>
-    <shuffle mode="random">
+    <shuffl>
         <page>
+        <!-- 区切り線 -->
             <separation></separation>
         </page>
         <page>
