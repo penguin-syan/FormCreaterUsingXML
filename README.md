@@ -11,7 +11,5 @@ Googleフォームを基本としており，順序効果に対応できない�
 * PHP 7.3
 * MySQL 5.3(結果用)
 
-# 使い方
-
-## XMLの書き方
-### 基本事項
+# 詳細
+Wiki参照（[リンク](https://github.com/penguin-syan/FormCreaterUsingXML/wiki)）
