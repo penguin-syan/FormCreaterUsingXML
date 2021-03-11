@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<createForm>
+   <page name="p1">
+      <title>1ページ目</title>
+      <description>1ページ目なんだよ！</description>
+      <question id="1" mandatory="true">
+         <Qtext>???</Qtext>
+      </question>
+   </page>
+   <page name="p2">
+      <title>2ページ目</title>
+      <description>2ページ目なんだよ！</description>
+   </page>
+</createForm>
