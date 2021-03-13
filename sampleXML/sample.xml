@@ -4,7 +4,13 @@
       <title>1ページ目</title>
       <description>1ページ目なんだよ！</description>
       <question id="1" mandatory="true">
-         <Qtext>???</Qtext>
+         <Qtext>質問文</Qtext>
+         <Qdesc>補足</Qdesc>
+         <Qans type="radio" required="false">
+            <option>選択肢1</option>
+            <option>選択肢2</option>
+            <option>選択肢3</option>
+         </Qans>
       </question>
    </page>
    <page name="p2">
